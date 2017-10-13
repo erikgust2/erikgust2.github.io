@@ -1,9 +1,16 @@
-
+body{
+    background-image: url('Kaiserreich.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-color: black;
+}
 
 nav{
     display: inline-block;
     width: 200px;
-    
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
 }
 main{
     display: inline-block;
