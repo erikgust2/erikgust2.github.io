@@ -11,8 +11,22 @@ nav{
     width: 200px;
     height: 200px;
     background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    border-radius: 10px;
 }
 main{
     display: inline-block;
     width: 800px;
+    font-family: 
+}
+footer{
+    position: absolute;
+    bottom: 0;
+}
+footer a{
+    display: inline-block;
+    background-color: rgb(139, 53, 67);
+    padding: 5px;
+    border-radius: 10px;
+        
 }
