@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+    margin: auto;
+}
+section{
+    display: inline-block;
+    max-width: 49%;
+    min-width: 280px;
+    background-color: rgba(0, 200, 255, 0.5);
+    vertical-align: top;
+    padding: 10px;
+    
+}
+img{
+    max-height: auto;
+    max-width: 200px;
+    float: right;
+}
