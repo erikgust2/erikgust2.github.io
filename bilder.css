@@ -1,0 +1,16 @@
+figure{
+    display: inline-block;
+}
+
+#ett{
+ width: 500px;
+ height: auto;
+}
+#två{
+ width: 500px;
+ height: auto;
+}
+#rooster-två{
+    width: 250px;
+    height: auto;
+}
