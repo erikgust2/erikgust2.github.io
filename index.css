@@ -1,3 +1,11 @@
+header{
+    display: inline-block;
+    position: fixed;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 30px;
+}
 body{
     background-image: url('Kaiserreich.png');
     background-size: cover;
@@ -10,7 +18,7 @@ nav{
     display: inline-block;
     width: 200px;
     height: 200px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(139, 53, 67, 1);
     padding: 10px;
     border-radius: 10px;
 }
@@ -29,4 +37,13 @@ footer a{
     border-radius: 10px;
     color:lightgray;
     text-decoration: none;
+}
+nav a{
+    color:lightgray;
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
 }
