@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+    background-color: grey;
+    
+}
+main {
+  min-height: calc(100vh - 50px);
+  padding: 20px;
+}
+footer {
+  height: 50px;
+  background-color: grey;
+}
+img{
+    width: auto;
+    height: 300px;
+}
+th{
+    text-align: left;
+    padding-left: 20px;
+}
