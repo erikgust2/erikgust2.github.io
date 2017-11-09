@@ -21,7 +21,6 @@ nav{
     background-color: rgba(139, 53, 67, 1);
     padding: 10px;
     border-radius: 10px;
-    padding-bottom: 10px;
 }
 main{
     display: inline-block;
@@ -47,10 +46,4 @@ ul{
     list-style-type: none;
     margin-left: 0px;
     padding-left: 0px;
-}
-@media (max-width:600px){
-    nav{
-        display:block;
-    }
-    
 }
