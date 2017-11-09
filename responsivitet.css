@@ -1,0 +1,15 @@
+header{
+    display:inline-block;
+}
+nav{
+    display:block;
+}
+main{
+    display:inline-block;
+}
+img{
+    max-width: 80%;
+}
+@media{
+    
+}
