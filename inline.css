@@ -19,3 +19,13 @@ img{
     max-width: 200px;
     float: right;
 }
+@media{
+    img{
+        max-width:95%
+        display:inline-block;
+    }
+    section{
+        width:95%;
+        display:inline-block;
+    }
+}
