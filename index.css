@@ -1,14 +1,14 @@
 header{
     display: inline-block;
-    position: fixed;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 300px;
     padding-right: 30px;
     font-size: 30px;
+    position:fixed;
 }
 body{
     background-image: url('Kaiserreich.png');
-    background-size: cover;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: top;
     background-color: black;
@@ -17,7 +17,7 @@ body{
 nav{
     display: inline-block;
     width: 200px;
-    height: 200px;
+    height: auto;
     background-color: rgba(139, 53, 67, 1);
     padding: 10px;
     border-radius: 10px;
@@ -51,6 +51,25 @@ ul{
 @media (max-width:600px){
     nav{
         display:block;
+
+        
     }
-    
+    header{
+        display:block;
+        font-size: 75%;
+        position:inherit;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        text-align: center;
+        width:336px;
+        background-color: rgb(139, 53, 67);
+        margin-bottom: 5px;
+        margin-left: 0px;
+     
+    }
+    body{
+        background-size: auto;
+    }
 }
