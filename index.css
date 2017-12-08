@@ -51,9 +51,7 @@ ul{
 @media (max-width:600px){
     nav{
         display:block;
-
-        
-    }
+          }
     header{
         display:block;
         font-size: 75%;
@@ -67,9 +65,12 @@ ul{
         background-color: rgb(139, 53, 67);
         margin-bottom: 5px;
         margin-left: 0px;
-     
+        border-radius: 10px;
     }
     body{
         background-size: auto;
+    }
+    footer{
+        width:auto;
     }
 }

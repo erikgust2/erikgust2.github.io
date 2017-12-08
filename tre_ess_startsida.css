@@ -1,0 +1,51 @@
+html,body{
+    height:100%;
+}
+body{
+    background-image: url(matrix.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+header{
+    width:200px;
+    background-color: darkred;
+    border-radius: 40px;
+    margin: 15px;
+}
+img{
+    height:150px;
+    max-height=30%;
+}
+#saker{
+    margin-left:8px;
+}
+h2{
+    display: inline-block;
+    font-size: 25px;
+    background-color: darkred;
+    border-radius: 20px;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
+main{
+    background-color:darkred;
+    margin-left:20px;
+    margin-right:20px;
+    padding:5px;
+    border-radius:20px;
+}
+p{
+    font-size: 20px;
+}
+section#standardsida{
+    display: none;
+}
+section#schysstsida{
+    display: none;
+}
+section#sakersida{
+    display: none;
+}

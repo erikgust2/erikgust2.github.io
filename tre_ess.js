@@ -1,0 +1,27 @@
+//javascriptet
+$(function(){
+    $("#standard").click(function(){
+        $("#startsida").hide();
+        $("#schysstsida").hide();
+        $("#sakersida").hide();
+        $("#standardsida").show();
+    });
+    $("#header").click(function(){
+        $("#startsida").show();
+        $("#schysstsida").hide();
+        $("#sakersida").hide();
+        $("#standardsida").hide();
+    });
+    $("#saker").click(function(){
+        $("#startsida").hide();
+        $("#schysstsida").hide();
+        $("#sakersida").show();
+        $("#standardsida").hide();
+    });
+    $("#schysst").click(function(){
+        $("#startsida").hide();
+        $("#schysstsida").show();
+        $("#sakersida").hide();
+        $("#standardsida").hide();
+    });
+});
