@@ -2,7 +2,7 @@ html,body{
     height:100%;
 }
 body{
-    background-image: url(matrix.jpg);
+    background-image: url(officeblur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -16,7 +16,7 @@ header{
 }
 img{
     height:150px;
-    max-height=30%;
+    max-height:30%;
 }
 #saker{
     margin-left:8px;
@@ -24,7 +24,7 @@ img{
 h2{
     display: inline-block;
     font-size: 25px;
-    background-color: #039d00;
+    background-color: rgb(228,228,228);
     border-radius: 20px;
     padding-top:5px;
     padding-bottom:5px;
@@ -32,7 +32,7 @@ h2{
     padding-right:15px;
 }
 main{
-    background-color:rgba(0,165,0,0.9);
+    background-color:rgba(228,228,228,0.9);
     margin-left:20px;
     margin-right:20px;
     padding:5px;
@@ -54,3 +54,12 @@ nav{
     margin:0 auto;
     max-width: 95%;
 }
+@media (min-width:500px){
+    body{
+        text-align: left;
+    }
+    nav{
+        margin-left:15px;
+    }
+}
+
