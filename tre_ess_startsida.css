@@ -6,6 +6,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
+    text-align:center;
 }
 header{
     width:200px;
@@ -23,7 +24,7 @@ img{
 h2{
     display: inline-block;
     font-size: 25px;
-    background-color: darkred;
+    background-color: #039d00;
     border-radius: 20px;
     padding-top:5px;
     padding-bottom:5px;
@@ -31,7 +32,7 @@ h2{
     padding-right:15px;
 }
 main{
-    background-color:darkred;
+    background-color:rgba(0,165,0,0.9);
     margin-left:20px;
     margin-right:20px;
     padding:5px;
@@ -48,4 +49,8 @@ section#schysstsida{
 }
 section#sakersida{
     display: none;
+}
+nav{
+    margin:0 auto;
+    max-width: 95%;
 }
