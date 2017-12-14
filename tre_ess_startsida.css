@@ -66,3 +66,7 @@ nav{
     }
 }
 
+section img{
+    float:right;
+    max-height:80px;
+}
