@@ -5,7 +5,7 @@ body{
     background-image: url(officeblur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: black;
+    background-color: rgb(164,175,174);
     text-align:center;
 }
 header{
@@ -69,4 +69,7 @@ nav{
 section img{
     float:right;
     max-height:80px;
+}
+li{
+    font-size: 19px;
 }
