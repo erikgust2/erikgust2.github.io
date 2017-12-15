@@ -91,6 +91,9 @@ section img{
 li{
     font-size: 16px;
 }
+ul{
+    padding-left:17px;
+}
 #footer{
     background-color: rgba(228,228,228,0.9);
     padding:10px;
