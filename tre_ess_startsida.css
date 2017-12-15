@@ -39,7 +39,8 @@ main{
     border-radius:20px;
 }
 p{
-    font-size: 20px;
+    font-size: 16px;
+    text-align: left;
 }
 section#standardsida{
     display: none;
@@ -64,12 +65,32 @@ nav{
     section{
         padding:10px;
     }
+    #footer{
+        width: 200px;
+    }
+    section img{
+        float:right;
+    }
+    li{
+        font-size: 20px;
+    }
+    p{
+        font-size: 20px;
+    }
 }
 
 section img{
-    float:right;
+    align-content: center;
     max-height:80px;
 }
 li{
-    font-size: 19px;
+    font-size: 16px;
+}
+#footer{
+    background-color: rgba(228,228,228,0.9);
+    padding:10px;
+    border-radius: 20px;
+    margin-left:20px;
+    margin-right:20px;
+    margin-bottom: 20px;
 }
