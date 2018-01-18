@@ -59,7 +59,6 @@ section#sakersida{
 nav{
     margin:0 auto;
     max-width: 95%;
-    cursor:pointer;
 }
 @media (min-width:500px){
     body{
@@ -86,6 +85,12 @@ nav{
     main{
         margin-left: 20px;
         margin-right: 20px;
+    }
+    header{
+        width: 200px;;
+    }
+    nav h2{
+        cursor: pointer;
     }
 }
 
