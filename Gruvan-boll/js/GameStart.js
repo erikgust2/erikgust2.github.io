@@ -4,7 +4,9 @@ var GameStart = {
         this.load.image('platform','assets/sten.png');
         this.load.image('boll','assets/boll.png');
         this.load.image('play','assets/playbutt.png');
+        this.load.image('lodrat','assets/lodrat.png');
         this.load.spritesheet('enemy','assets/masken60.png',128,60);
+        this.load.spritesheet('player','assets/tempelrunner.png', 50,60,13)
         this.load.audio('musik',['assets/Secret-Catacombs.mp3','assets/Secret-Catacombs.ogg']);
         this.load.audio('plopp',['assets/plopp.mp3','assets/plopp.ogg']);
     },
